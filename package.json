@@ -295,7 +295,7 @@
               "c",
               "cpp"
             ],
-            "description": "List of languages supported by SourceKit-LSP. This is used to determine when to start the SourceKit-LSP server.",
+            "description": "List of languages supported by SourceKit-LSP. This is used to determine whether SourceKit-LSP should provide language features for a particular file type.",
             "items": {
               "type": "string",
               "enum": [
